@@ -20,7 +20,7 @@ st.markdown("""
 c1, c2, c3 = st.columns(3)
 
 c2.image('static_file/image/logo.png')
-st.title('DMcPherson Editorial Tools')
+c2.title('DMcPherson Editorial Tools')
 
 
 # sidebar transcription options
