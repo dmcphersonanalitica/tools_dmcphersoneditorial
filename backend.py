@@ -50,7 +50,7 @@ def path_file(file):
 def save_to_word(filename, text, format):
     document = Document()
 
-    header = document.add_heading('DMcPherson Editorial Transcription\n')
+    header = document.add_heading('DMcPherson Editorial Tools\n')
     header.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     p = document.add_paragraph(text)
