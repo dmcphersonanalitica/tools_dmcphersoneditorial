@@ -18,7 +18,7 @@ quality_model = {
 @st.cache_resource
 def load_model(quality):
     try:
-        model = whisper.load_model(quality_model[str(quality)], download_root='static_file/w_models')
+        model = whisper.load_model(quality_model[str(quality)])
         return model
     except Exception as e:
         print(e)
